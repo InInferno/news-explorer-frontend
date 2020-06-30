@@ -4,7 +4,6 @@ const presets = [
     {
       targets: {
         chrome: "64",
-        and_chr,
         firefox: "50",
         safari: "11.1",
         edge: "15",
