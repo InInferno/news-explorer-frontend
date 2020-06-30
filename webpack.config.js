@@ -7,7 +7,7 @@ const isDev = process.env.NODE_ENV === 'development';
 const webpack = require('webpack');
 
 module.exports = {
-  entry: { main: './src/js/script.js' },
+  entry: { main: './src/index.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[chunkhash].js'
