@@ -1,0 +1,10 @@
+.header__nav-link {
+	color: #B6BCBF;
+	text-decoration: none;
+	margin: 3px 0px 0 35px;
+}
+
+.header__nav-link:hover {
+	opacity: 0.7;
+	transition: 1s;
+}

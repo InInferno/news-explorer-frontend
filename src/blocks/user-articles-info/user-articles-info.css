@@ -1,0 +1,11 @@
+@import url('./__container/user-articles-info__container.css');
+@import url('./__title/user-articles-info__title.css');
+@import url('./__subtitle/user-articles-info__subtitle.css');
+@import url('./__text/user-articles-info__text.css');
+@import url('./__text/_tag/user-articles-info__text_tag.css');
+
+.user-articles-info {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #FFF;
+}

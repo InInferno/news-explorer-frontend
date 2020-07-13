@@ -1,0 +1,22 @@
+.popup__form-join {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2F71E5;
+  margin: 14px 0 0 0;
+}
+
+.popup__form-join:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.popup__form-join:active {
+  opacity: 0.7;
+}
+
+.popup__form-join:focus {
+  outline: none;
+}

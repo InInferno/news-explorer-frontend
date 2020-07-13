@@ -1,0 +1,11 @@
+@import url('./__avatar/about-author__avatar.css');
+
+.about-author {
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.about-author {
+        flex-direction: column;
+	}
+}

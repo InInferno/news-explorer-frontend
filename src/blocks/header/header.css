@@ -1,0 +1,21 @@
+@import url('./__cover/header__cover.css');
+@import url('./__container/header__container.css');
+@import url('./__logo/header__logo.css');
+@import url('./__navigation/header__navigation.css');
+@import url('./__nav-link/header__nav-link.css');
+@import url('./__nav-link/_active/header__nav-link_active.css');
+@import url('./__button/header__button.css');
+@import url('./__nav-icon/header__nav-icon.css');
+@import url('./__logo/_logged/header__logo_logged.css');
+@import url('./__nav-link/_logged/header__nav-link_logged.css');
+@import url('./__button/_logged/header__button_logged.css');
+@import url('./__nav-link/_active/_logged/header__nav-link_active_logged.css');
+@import url('./__menu/header__menu.css');
+@import url('./__menu/_logged/header__menu_logged.css');
+
+.header {
+	max-width: 100%;
+	margin: 0 auto;
+	background: rgba(196, 196, 196, 0.01);
+	box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}

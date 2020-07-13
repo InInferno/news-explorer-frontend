@@ -1,0 +1,26 @@
+.user-info__text {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px 0 24px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.user-info__text {
+    max-width: 93%;
+    margin: 0px 0 24px 1px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.user-info__text {
+    max-width: 99%;
+    margin: 0 0 24px 0;
+}
+
+.user-info__text:last-of-type {
+  margin: 0 0 81px 0;
+  }
+}

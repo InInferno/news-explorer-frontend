@@ -1,0 +1,30 @@
+.mobile-menu__button {
+  min-width: 288px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  background: none;
+  padding: 14px 0 16px 0;
+  margin: 22px 0 0 16px;
+  color: #FFF;
+}
+
+.mobile-menu__button:hover {
+  opacity: 0.9;
+}
+
+.mobile-menu__button:active {
+  opacity: 0.7;
+}
+
+.mobile-menu__button:focus {
+  outline: none;
+}

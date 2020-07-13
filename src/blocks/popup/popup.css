@@ -1,0 +1,35 @@
+@import url(./__content/popup__content.css);
+@import url(./__close/popup__close.css);
+@import url(./__title/popup__title.css);
+@import url(./__form/popup__form.css);
+@import url(./__form-field/popup__form-field.css);
+@import url(./__input/popup__input.css);
+@import url(./__form-error/popup__form-error.css);
+@import url(./__form-error-registration/popup__form-error-registration.css);
+@import url(./__form-name/popup__form-name.css);
+@import url(./__form-other/popup__form-other.css);
+@import url(./__form-registration/popup__form-registration.css);
+@import url(./__form-error-registration/_active/popup__form-error-registration_active.css);
+@import url(./__button/popup__button.css);
+@import url(./__button/_active/popup__button_active.css);
+@import url(./_is-opened/popup_is-opened.css);
+@import url(./__form-join/popup__form-join.css);
+@import url(./_mobile-menu/popup_mobile-menu.css);
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.popup {
+    top: 56px;
+	}
+}

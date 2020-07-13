@@ -1,0 +1,11 @@
+.article__icon_active {
+    background-image: url('../../../../images/article__icon-active.svg');
+}
+
+.article__icon_active:hover {
+    opacity: 0.9;
+}
+
+.article__icon_active:active {
+    opacity: 0.7;
+}

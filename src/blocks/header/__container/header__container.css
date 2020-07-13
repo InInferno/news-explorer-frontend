@@ -1,0 +1,18 @@
+.header__container {
+  max-width: 100%;
+	margin: 0 89px 0 104px;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.header__container {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.header__container {
+		margin: 0 auto;
+	}
+}

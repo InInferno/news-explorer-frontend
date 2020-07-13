@@ -1,0 +1,10 @@
+@import url('./__title/news__title.css');
+@import url('./__articles/news__articles.css');
+@import url('./__articles/_logged/news__articles_logged.css');
+@import url('./__button/news__button.css');
+
+.news {
+  display: flex;
+  flex-direction: column;
+  background: #F5F6F7;
+}

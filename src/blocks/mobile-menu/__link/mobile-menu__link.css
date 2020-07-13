@@ -1,0 +1,21 @@
+.mobile-menu__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 56px;
+  color: #FFFF;
+  text-decoration: none;
+}
+
+.mobile-menu__link:hover {
+  opacity: 0.9;
+}
+
+.mobile-menu__link:active {
+  opacity: 0.7;
+}
+
+.mobile-menu__link:focus {
+  outline: none;
+}

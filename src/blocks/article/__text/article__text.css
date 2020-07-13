@@ -1,0 +1,32 @@
+.article__text {
+    max-width: 356px;
+    max-height: 21%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    margin: 15px 0 0px 24px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.article__text {
+        max-height: 23%;
+        margin: 9px 0 0 16px;
+        -webkit-line-clamp: 3;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.article__text {
+        margin: 9px 0 0px 16px;
+        -webkit-line-clamp: 3;
+	}
+}

@@ -1,0 +1,16 @@
+.header__nav-link_active {
+    color: #FFF;
+	  display: inline-block;
+	  position: relative;
+    border-bottom: 3px solid #FFF;
+    font-weight: normal;
+    margin: 30px 0px 0 0;
+    padding: 0 0 23px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.header__nav-link_active {
+    margin: 23px 0 0 0;
+    padding: 0 0 16px 0;
+	}
+}
