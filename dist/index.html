@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Поиск новостей">
+    <meta name="keywords" content="Поиск новостей, об авторе">
+    <meta name="author" content="Vadim Ivanov">
+    <link rel="stylesheet" href="./style/index.f3009bb98de11ee9e05e.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <title>NewsExplorer</title>
+  </head>
+  <body class="body">
+    <main class="page">
+
+      <!-- Бэкграунд хэдера и секции поиска статей -->
+      <div class="header__cover">
+
+        <!-- Хэдер -->
+        <header class="header">
+          <div class="header__container">
+            <p class="header__logo">NewsExplorer</p>
+            <nav class="header__navigation">
+              <a class="header__nav-link header__nav-link_active" href="https://newsexp.ml">Главная</a>
+              <!-- <a class="header__nav-link" href="https://newsexp.ml">Сохранённые статьи</a> -->
+              <button class="header__nav-link header__button">Авторизоваться</button>
+              <!-- <button class="header__button">Грета<img class="header__nav-icon" src="./images/logout.svg" alt="logout"></button> -->
+            </nav>
+            <img class="header__menu" src="./images/menu.svg" alt="menu">
+          </div>
+        </header>
+
+        <!-- Секция поиска статей -->
+        <section class="search">
+          <h1 class="search__title">Что в мире творится?</h1>
+          <p class="search__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
+          <div class="search-field">
+            <input class="search-field__input" placeholder="Введите тему новости">
+            <button class="search-field__button">Искать</button>
+          </div>
+        </section>
+      </div>
+
+      <!-- Секция со статьями -->
+      <section class="news">
+        <h2 class="news__title">Результаты поиска</h2>
+        <div class="news__articles">
+          <div class="article">
+            <div class="article__icon"></div>
+            <a href="" class="article__link">
+              <img class="article__image" src="./images/article__image-1.jpg" alt="article__image">
+              <p class="article__date">2 августа, 2019</p>
+              <h3 class="article__title">Национальное достояние – парки</h3>
+              <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+              <p class="article__source">ЛЕНТА.РУ</p>
+            </a>
+          </div>
+          <div class="article">
+            <div class="article__icon article__icon_active"></div>
+            <a href="" class="article__link">
+              <img class="article__image" src="./images/article__image-2.jpg" alt="article__image">
+              <p class="article__date">2 августа, 2019</p>
+              <h3 class="article__title">Лесные огоньки: история одной фотографии</h3>
+              <p class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
+                  из местных чудес природы.</p>
+              <p class="article__source">МЕДУЗА</p>
+            </a>
+          </div>
+          <div class="article">
+            <div class="article__icon"></div>
+            <!-- <p class="article__info-icon">Войдите, чтобы сохранять статьи</p> -->
+            <a href="" class="article__link">
+              <img class="article__image" src="./images/article__image-3.jpg" alt="article__image">
+              <p class="article__date">2 августа, 2019</p>
+              <h3 class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+              <p class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где 54656 564 6 456 456 45 645 645645 645 6</p>
+              <p class="article__source">РИА</p>
+            </a>
+          </div>
+        </div>
+        <button class="news__button">Показать ещё</button>
+      </section>
+
+      <!-- Прелоудер загрузки статей -->
+      <!-- <section class="search-load">
+        <i class="search-load__circle-preloader"></i>
+        <p class="search-load__text">Идет поиск новостей...</p>
+      </section> -->
+
+      <!-- Новости не найдены -->
+      <!-- <section class="no-result">
+        <img class="no-result__image" src="./images/no-result__image.svg"  alt="no-result__image">
+        <h2 class="no-result__title">Ничего не найдено</h2>
+        <p class="no-result__text">К сожалению по вашему запросу
+        ничего не найдено.</p>
+      </section> -->
+
+      <!-- Секция об авторе -->
+      <section class="about-author">
+        <img class="about-author__avatar" src="./images/about-author__avatar.jpg"  alt="avatar">
+        <div class="user-info">
+            <h2 class="user-info__title">Об авторе</h1>
+            <p class="user-info__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+            <p class="user-info__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+        </div>
+      </section>
+
+      <!-- Футер -->
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2020 Supersite, Powered by News API</p>
+        <nav class="footer__navigation">
+          <ul class="footer__links">
+            <li class="footer__item-link"><a class="footer__link" href="#">Главная</a></li>
+            <li class="footer__item-link"><a class="footer__link" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></li>
+          </ul>
+          <ul class="footer__links-social">
+            <li class="footer__item-link-social"><a class="footer__link" href="https://github.com/InInferno"><img class="footer__social-item" src="./images/github.svg" alt="GitGub"></a></li>
+            <li class="footer__item-link-social"><a class="footer__link" href="https://vadimivanov.ru/"><img class="footer__social-item" src="./images/facebook.svg" alt="Facebook"></a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <!-- Попап входа в аккаунт -->
+      <div class="popup popup-signin">
+        <div class="popup__content">
+          <img src="./images/close.svg" alt="close" class="popup__close">
+          <h3 class="popup__title">Вход</h3>
+          <form class="popup__form" name="new">
+            <span class="popup__form-name">Email</span>
+            <div class="popup__form-field">
+                <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
+                <span class="popup__form-error ">Неправильный формат email</span>
+            </div>
+            <span class="popup__form-name">Пароль</span>
+            <div class="popup__form-field">
+                <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите почту" required minlength="2">
+                <span class="popup__form-error ">Неправильный формат пароля</span>
+            </div>
+            <button id='button' type class="button popup__button">Войти</button>
+            <p class="popup__form-other">или <span class="popup__form-registration">Зарегистрироваться</span></p>
+        </form>
+        </div>
+      </div>
+
+      <!-- Попап входа в аккаунт активный -->
+      <!-- <div class="popup popup-signin">
+        <div class="popup__content">
+          <img src="./images/close.svg" alt="close" class="popup__close">
+          <h3 class="popup__title">Вход</h3>
+          <form class="popup__form" name="new">
+              <span class="popup__form-name">Email</span>
+              <div class="popup__form-field">
+                  <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
+                  <span class="popup__form-error ">Неправильный формат email</span>
+              </div>
+              <span class="popup__form-name">Пароль</span>
+              <div class="popup__form-field">
+                  <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите почту" required minlength="2">
+                  <span class="popup__form-error ">Неправильный формат пароля</span>
+              </div>
+              <button id='button' type class="button popup__button popup__button_active">Войти</button>
+              <p class="popup__form-other">или <span class="popup__form-registration">Зарегистрироваться</span></p>
+          </form>
+      </div>
+      </div> -->
+
+      <!-- Попап входа в аккаунт с активными ошибками -->
+      <!-- <div class="popup popup-signin">
+        <div class="popup__content">
+          <img src="./images/close.svg" alt="close" class="popup__close">
+          <h3 class="popup__title">Вход</h3>
+          <form class="popup__form" name="new">
+              <span class="popup__form-name">Email</span>
+              <div class="popup__form-field">
+                  <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
+                  <span class="popup__form-error popup__form-error_active">Неправильный формат email</span>
+              </div>
+              <span class="popup__form-name">Пароль</span>
+              <div class="popup__form-field">
+                  <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите почту" required minlength="2">
+                  <span class="popup__form-error popup__form-error_active">Неправильный формат пароля</span>
+              </div>
+              <button id='button' type class="button popup__button">Войти</button>
+              <p class="popup__form-other">или <span class="popup__form-registration">Зарегистрироваться</span></p>
+          </form>
+        </div>
+      </div> -->
+
+      <!-- Попап регистрации -->
+      <div class="popup popup-signup">
+        <div class="popup__content">
+          <img src="./images/close.svg" alt="close" class="popup__close">
+          <h3 class="popup__title">Регистрация</h3>
+          <form class="popup__form" name="new">
+              <span class="popup__form-name">Email</span>
+              <div class="popup__form-field">
+                  <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
+                  <span class="popup__form-error">Неправильный формат email</span>
+              </div>
+              <span class="popup__form-name">Пароль</span>
+              <div class="popup__form-field">
+                  <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите пароль" required minlength="2">
+                  <span class="popup__form-error">Неправильный формат пароля</span>
+              </div>
+              <span class="popup__form-name">Имя</span>
+              <div class="popup__form-field">
+                  <input id='userName' type="name" name="name" class="popup__input popup__input_one popup__input_type_name" placeholder="Введите своё имя" required minlength="2">
+                  <span class="popup__form-error">Неправильный формат имени</span>
+              </div>
+              <span class="popup__form-error">Такой пользователь уже есть</span>
+              <button id='button' type class="button popup__button">Зарегистироваться</button>
+              <p class="popup__form-other">или <span class="popup__form-registration">Войти</span></p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Попап регистрации активный -->
+      <!-- <div class="popup popup-signup">
+        <div class="popup__content">
+          <img src="./images/close.svg" alt="close" class="popup__close">
+          <h3 class="popup__title">Регистрация</h3>
+          <form class="popup__form" name="new">
+              <span class="popup__form-name">Email</span>
+              <div class="popup__form-field">
+                  <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
+                  <span class="popup__form-error">Неправильный формат email</span>
+              </div>
+              <span class="popup__form-name">Пароль</span>
+              <div class="popup__form-field">
+                  <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите пароль" required minlength="2">
+                  <span class="popup__form-error">Неправильный формат пароля</span>
+              </div>
+              <span class="popup__form-name">Имя</span>
+              <div class="popup__form-field">
+                  <input id='userName' type="name" name="name" class="popup__input popup__input_one popup__input_type_name" placeholder="Введите своё имя" required minlength="2">
+                  <span class="popup__form-error">Неправильный формат имени</span>
+              </div>
+              <span class="popup__form-error-registration popup__form-error-registration_active">Такой пользователь уже есть</span>
+              <button id='button' type class="button popup__button popup__button_active">Зарегистироваться</button>
+              <p class="popup__form-other">или <span class="popup__form-registration">Войти</span></p>
+          </form>
+        </div>
+      </div> -->
+
+      <!-- Попап успешной регистрации -->
+      <div class="popup popup-add">
+        <div class="popup__content">
+            <img src="./images/close.svg" alt="close" class="popup__close">
+            <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
+            <p class="popup__form-join">Выполнить вход</p>
+        </div>
+      </div>
+
+      <!-- Попап мобильного меню -->
+      <div class="popup popup_mobile-menu popup-mobile-menu">
+        <div class="mobile-menu">
+            <div class="mobile-menu__header">
+                <p class="mobile-menu__logo">NewsExplorer</p>
+                <img src="./images/close.svg" alt="close" class="mobile-menu__close">
+            </div>
+            <div class="mobile-menu__navigation">
+                <a href="#" class="mobile-menu__link">Главная</a>
+                <a href="#" class="mobile-menu__link">Сохранённые статьи</a>
+            </div>
+        <!-- <button class="header__nav-link header__button">Авторизоваться</button> -->
+            <button class="mobile-menu__button">Грета<img class="mobile-menu__nav-icon" src="./images/logout.svg" alt="logout"></button>
+        </div>
+      </div>
+
+      <script src="./js/index.dbfe76c81bc2737bedf0.js"></script>
+    </main>
+  </body>
+</html>
