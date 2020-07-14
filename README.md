@@ -1,6 +1,6 @@
 # Frontend NewsExploler
 
-Ссылка: [NewsExploler](https://ininferno.github.io/news-explorer-frontend/ "NewsExplorer")
+Ссылка: [NewsExploler](https://ininferno.github.io/news-explorer-frontend/ "NewsExplorer"). 
 Проект по поиску и хранению новостей.
 Версия: v. 0.0.1
 
