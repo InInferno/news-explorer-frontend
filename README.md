@@ -34,6 +34,3 @@
 Деплой проекта на gh-pages
 
     npm run deploy
-
-
-
