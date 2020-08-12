@@ -1,9 +1,10 @@
 @import url('./__image/no-result__image.css');
 @import url('./__title/no-result__title.css');
 @import url('./__text/no-result__text.css');
+@import url('./_active/no-result_active.css');
 
 .no-result {
-  display: flex;
+  display: none;
   flex-direction: column;
   background: #F5F6F7;
   align-items: center;

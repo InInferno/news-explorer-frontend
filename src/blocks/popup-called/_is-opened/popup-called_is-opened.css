@@ -1,0 +1,9 @@
+.popup-called.popup-called_is-opened {
+  display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.popup-called.popup-called_is-opened {
+    display: block;
+  }
+}

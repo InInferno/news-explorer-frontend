@@ -1,13 +1,14 @@
+@import url('./_active/header__menu_active.css');
+
 .header__menu {
   display: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-	.header__menu {
+	.header__menu.header__menu {
     width: 24px;
     height: 24px;
     background-image: url('../../../images/menu.svg');
-    display: flex;
     margin: 16px 0px 16px 0px;
 	}
 }

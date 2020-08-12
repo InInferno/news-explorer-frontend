@@ -2,7 +2,7 @@
     max-width: 182px;
     height: 40px;
     background: #FFF;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: absolute;

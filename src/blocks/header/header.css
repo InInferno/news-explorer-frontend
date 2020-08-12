@@ -12,6 +12,7 @@
 @import url('./__nav-link/_active/_logged/header__nav-link_active_logged.css');
 @import url('./__menu/header__menu.css');
 @import url('./__menu/_logged/header__menu_logged.css');
+@import url('./__link-hide/header__link-hide.css');
 
 .header {
 	max-width: 100%;

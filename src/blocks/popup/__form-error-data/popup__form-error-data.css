@@ -1,0 +1,9 @@
+.popup__form-error-data {
+  margin: -10px 0 0 65px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.popup__form-error-data {
+    margin: -23px 0 0 40px;
+	}
+}

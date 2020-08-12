@@ -1,3 +1,5 @@
+@import url(./_hide/mobile-menu__link_hide.css);
+
 .mobile-menu__link {
   font-family: 'Roboto';
   font-style: normal;

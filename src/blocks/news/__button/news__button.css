@@ -1,3 +1,5 @@
+@import url('./_active/news__button_active.css');
+
 .news__button {
   width: 288px;
   border-radius: 80px;
@@ -11,6 +13,7 @@
   font-size: 18px;
   line-height: 24px;
   margin: 0px 0 80px 573px;
+  display: none;
 }
 
 .news__button:hover {

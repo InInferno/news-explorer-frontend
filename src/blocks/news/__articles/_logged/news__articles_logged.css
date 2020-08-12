@@ -10,8 +10,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 	.news__articles_logged {
-    grid-template-columns: repeat(1, 288px);
-    grid-gap: 10px;
+    /* grid-template-columns: repeat(1, 288px);
+    grid-gap: 10px; */
     margin: 24px 0 12px 1px;
 	}
 }

@@ -14,89 +14,20 @@
     <main class="page">
 
       <!-- Хэдер -->
-      <header class="header header_logged">
-        <div class="header__container">
-          <p class="header__logo header__logo_logged">NewsExplorer</p>
-          <nav class="header__navigation">
-            <a class="header__nav-link header__nav-link_logged" href="https://newsexp.ml">Главная</a>
-            <a class="header__nav-link header__nav-link_logged header__nav-link_active_logged" href="https://newsexp.ml">Сохранённые статьи</a>
-            <button class="header__button header__button_logged">Грета<img class="header__nav-icon" src="<%=require('./images/logout-logged.svg').default%>" alt="logout"></button>
-          </nav>
-          <img class="header__menu header__menu_logged" src="<%=require('./images/menu_logged.svg').default%>" alt="menu">
-        </div>
-      </header>
+      <header class="header"></header>
 
       <!-- Секция информации о статьях -->
       <section class="user-articles-info">
         <div class="user-articles-info__container">
           <h1 class="user-articles-info__title">Сохранённые статьи</h1>
           <p class="user-articles-info__subtitle">Грета, у вас 5 сохранённых статей</p>
-          <p class="user-articles-info__text">По ключевым словам: <span class="user-articles-info__text_tag">Природа, </span> <span class="user-articles-info__text_tag">Тайга</span> и <span class="user-articles-info__text_tag">2 другим</span></p>
+          <p class="user-articles-info__text">По ключевым словам: <span class="user-articles-info__text_tag user-articles-info__text_one">Природа, </span> <span class="user-articles-info__text_tag user-articles-info__text_two">Тайга</span> и <span class="user-articles-info__text_tag user-articles-info__text_other">2 другим</span></p>
         </div>
       </section>
 
       <!-- Секция со статьями -->
       <section class="news">
-        <div class="news__articles news__articles_logged">
-          <div class="article">
-            <div class="article__icon-trash"></div>
-            <p class="article__tag-icon">Природа</p>
-            <a href="" class="article__link">
-              <img class="article__image" src="<%=require('./images/article__image-logged-1.jpg').default%>" alt="article__image">
-              <p class="article__date">2 августа, 2019</p>
-              <h3 class="article__title">Национальное достояние – парки  </h3>
-              <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-              <p class="article__source">ДЗЕН</p>
-            </a>
-          </div>
-          <div class="article">
-            <div class="article__icon-trash"></div>
-            <!-- <p class="article__delete-icon">Убрать из сохранённых</p> -->
-            <p class="article__tag-icon">Природа</p>
-            <a href="" class="article__link">
-              <img class="article__image" src="<%=require('./images/article__image-logged-2.jpg').default%>" alt="article__image">
-              <p class="article__date">2 августа, 2019</p>
-              <h3 class="article__title">Лесные огоньки: история одной фотографии</h3>
-              <p class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
-              из местных чудес природы.</p>
-              <p class="article__source">АФИША</p>
-            </a>
-          </div>
-          <div class="article">
-            <div class="article__icon-trash"></div>
-            <p class="article__tag-icon">Тайга</p>
-            <a href="" class="article__link">
-              <img class="article__image" src="<%=require('./images/article__image-logged-3.jpg').default%>" alt="article__image">
-              <p class="article__date">2 августа, 2019</p>
-              <h3 class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-              <p class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-              <p class="article__source">МЕДИА ЗОНА</p>
-            </a>
-          </div>
-          <div class="article">
-            <div class="article__icon-trash"></div>
-            <p class="article__tag-icon">Парки</p>
-            <a href="" class="article__link">
-              <img class="article__image" src="<%=require('./images/article__image-logged-1.jpg').default%>" alt="article__image">
-              <p class="article__date">2 августа, 2019</p>
-              <h3 class="article__title">Национальное достояние – парки  </h3>
-              <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-              <p class="article__source">ДЗЕН</p>
-              </a>
-          </div>
-          <div class="article">
-            <div class="article__icon-trash"></div>
-            <p class="article__tag-icon">Фотография</p>
-            <a href="" class="article__link">
-              <img class="article__image" src="<%=require('./images/article__image-logged-2.jpg').default%>"  alt="article__image">
-              <p class="article__date">2 августа, 2019</p>
-              <h3 class="article__title">Лесные огоньки: история одной фотографии</h3>
-              <p class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
-              из местных чудес природы.</p>
-              <p class="article__source">АФИША</p>
-            </a>
-          </div>
-        </div>
+        <div class="news__articles news__articles_logged"></div>
       </section>
 
       <!-- Футер -->
@@ -114,81 +45,21 @@
         </nav>
       </footer>
 
-      <!-- Попап входа в аккаунт -->
-      <div class="popup popup-signin">
-        <div class="popup__content">
-          <img src="<%=require('./images/close.svg').default%>" alt="close" class="popup__close">
-          <h3 class="popup__title">Вход</h3>
-          <form class="popup__form" name="new">
-              <span class="popup__form-name">Email</span>
-              <div class="popup__form-field">
-                <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
-                <span class="popup__form-error ">Неправильный формат email</span>
-              </div>
-              <span class="popup__form-name">Пароль</span>
-              <div class="popup__form-field">
-                <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите почту" required minlength="2">
-                <span class="popup__form-error ">Неправильный формат пароля</span>
-              </div>
-              <button id='button' type class="button popup__button">Войти</button>
-              <p class="popup__form-other">или <span class="popup__form-registration">Зарегистрироваться</span></p>
-          </form>
-        </div>
-      </div>
-
-      <!-- Попап регистрации аккаунта -->
-      <div class="popup popup-signup">
-          <div class="popup__content">
-            <img src="<%=require('./images/close.svg').default%>" alt="close" class="popup__close">
-            <h3 class="popup__title">Регистрация</h3>
-            <form class="popup__form" name="new">
-              <span class="popup__form-name">Email</span>
-              <div class="popup__form-field">
-                <input id='userEmail' type="email" name="email" class="popup__input popup__input_one popup__input_type_email" placeholder="Введите почту" required minlength="2">
-                <span class="popup__form-error">Неправильный формат email</span>
-              </div>
-              <span class="popup__form-name">Пароль</span>
-              <div class="popup__form-field">
-                <input id='userPassword' type="password" name="password" class="popup__input popup__input_one popup__input_type_password" placeholder="Введите пароль" required minlength="2">
-                <span class="popup__form-error">Неправильный формат пароля</span>
-              </div>
-              <span class="popup__form-name">Имя</span>
-              <div class="popup__form-field">
-                <input id='userName' type="name" name="name" class="popup__input popup__input_one popup__input_type_name" placeholder="Введите своё имя" required minlength="2">
-                <span class="popup__form-error">Неправильный формат имени</span>
-              </div>
-              <span class="popup__form-error">Такой пользователь уже есть</span>
-              <button id='button' type class="button popup__button">Зарегистироваться</button>
-              <p class="popup__form-other">или <span class="popup__form-registration">Войти</span></p>
-            </form>
-          </div>
-      </div>
-
-      <!-- Попап успешной регистации -->
-      <div class="popup popup-add">
-        <div class="popup__content">
-          <img src="<%=require('./images/close.svg').default%>" alt="close" class="popup__close">
-          <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
-          <p class="popup__form-join">Выполнить вход</p>
-        </div>
-      </div>
-
       <!-- Попап мобильного меню -->
       <div class="popup popup_mobile-menu popup-mobile-menu">
         <div class="mobile-menu">
-          <div class="mobile-menu__header">
-            <p class="mobile-menu__logo">NewsExplorer</p>
-            <img src="<%=require('./images/close.svg').default%>" alt="close" class="mobile-menu__close">
-          </div>
-          <div class="mobile-menu__navigation">
-            <a href="#" class="mobile-menu__link">Главная</a>
-            <a href="#" class="mobile-menu__link">Сохранённые статьи</a>
-          </div>
-          <!-- <button class="header__nav-link header__button">Авторизоваться</button> -->
-          <button class="mobile-menu__button">Грета<img class="mobile-menu__nav-icon" src="<%=require('./images/logout.svg').default%>" alt="logout"></button>
+            <div class="mobile-menu__header">
+                <p class="mobile-menu__logo">NewsExplorer</p>
+                <img src="<%=require('./images/close.svg').default%>" alt="close" class="mobile-menu__close">
+            </div>
+            <div class="mobile-menu__navigation">
+                <a href="index.html" class="mobile-menu__link">Главная</a>
+                <a href="articles.html" class="mobile-menu__link mobile-menu__saved-articles">Сохранённые статьи</a>
+            </div>
+            <button class="header__nav-link header__button header__authorization-mobile">Авторизоваться</button>
+            <button class="mobile-menu__button header__user-mobile"><img class="mobile-menu__nav-icon" src="<%=require('./images/logout.svg').default%>" alt="logout"></button>
         </div>
       </div>
-      
       <script src="<%= htmlWebpackPlugin.files.chunks.articles.entry %>"></script>
     </main>
   </body>

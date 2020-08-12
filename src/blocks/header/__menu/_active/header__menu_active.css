@@ -1,0 +1,5 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.header__menu.header__menu_active {
+    display: flex;
+	}
+}

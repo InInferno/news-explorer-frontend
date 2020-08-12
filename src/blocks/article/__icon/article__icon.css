@@ -14,7 +14,7 @@
 }
 
 .article__icon:hover {
-        background-image: url('../../../images/article__icon-hover.svg');
+  background-image: url('../../../images/article__icon-hover.svg');
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

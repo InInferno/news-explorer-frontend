@@ -1,9 +1,11 @@
+@import url('./_active/article__tag-icon.css');
+
 .article__tag-icon {
     max-width: 182px;
     height: 40px;
     background: #FFF;
     border-radius: 10px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: absolute;
