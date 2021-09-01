@@ -1,8 +1,15 @@
 # Frontend NewsExploler
 
-Ссылка: [NewsExploler](https://newsexp.ml/ "NewsExplorer"). 
+Ссылка: [NewsExploler](https://ininferno.github.io/news-explorer-frontend/ "NewsExplorer").
+
+Сайт. Версия: v. 0.0.1
 Проект по поиску и хранению новостей.
-Версия: v. 0.0.1
+Функционал сервиса предусматривает:
+- Поиск новостей
+- Добавление новостей в избранное
+- Удаление новостей из избранного
+- Регистрация
+- Авторизация
 
 ### Технологии: 
 - JS 
